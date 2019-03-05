@@ -3,6 +3,11 @@ import Discord from 'discord.js';
 import { nextMatchDetails, nextMatchAnnouncer } from './modules/hltv';
 import { prefix, token } from './config';
 
+var port = process.env.PORT || 3000;
+app.listen(port, "0.0.0.0", function() {
+console.log("Listening on Port 3000");
+});
+
 const client = new Discord.Client();
 
 client.on('message', msg => {
