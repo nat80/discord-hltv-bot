@@ -2,7 +2,7 @@
 export const prefix = '!';
 
 // Your bot user token
-export const token = 'NTUyMzE0Mjk1NTU2NTA1NjI4.D19ugA.zkUeEuoJAgrbeVSqRRsbINK6Drk';
+export const token = '';
 
 // Your prefered teams to get next matches
 export const myTeams = [
